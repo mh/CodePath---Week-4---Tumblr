@@ -14,6 +14,13 @@
 		EC7974441BC85799007E3C8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC7974421BC85799007E3C8D /* LaunchScreen.storyboard */; };
 		EC79744F1BC85799007E3C8D /* TumblrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC79744E1BC85799007E3C8D /* TumblrTests.swift */; };
 		EC79745A1BC85799007E3C8D /* TumblrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7974591BC85799007E3C8D /* TumblrUITests.swift */; };
+		EC7974681BC857C3007E3C8D /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7974671BC857C3007E3C8D /* TabBarViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		EC79746A1BC85BBE007E3C8D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7974691BC85BBE007E3C8D /* HomeViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		EC79746C1BC85D0A007E3C8D /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC79746B1BC85D0A007E3C8D /* SearchViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		EC79746E1BC85D54007E3C8D /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC79746D1BC85D54007E3C8D /* ComposeViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		EC7974701BC85F2F007E3C8D /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC79746F1BC85F2F007E3C8D /* AccountViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		EC7974721BC85FCC007E3C8D /* TrendingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7974711BC85FCC007E3C8D /* TrendingViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		EC7974741BCC8CF1007E3C8D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7974731BCC8CF1007E3C8D /* LoginViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		EC7974551BC85799007E3C8D /* TumblrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TumblrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC7974591BC85799007E3C8D /* TumblrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TumblrUITests.swift; sourceTree = "<group>"; };
 		EC79745B1BC85799007E3C8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC7974671BC857C3007E3C8D /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		EC7974691BC85BBE007E3C8D /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		EC79746B1BC85D0A007E3C8D /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		EC79746D1BC85D54007E3C8D /* ComposeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
+		EC79746F1BC85F2F007E3C8D /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		EC7974711BC85FCC007E3C8D /* TrendingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrendingViewController.swift; sourceTree = "<group>"; };
+		EC7974731BCC8CF1007E3C8D /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ../LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +111,16 @@
 		EC7974381BC85799007E3C8D /* Tumblr */ = {
 			isa = PBXGroup;
 			children = (
+				EC7974731BCC8CF1007E3C8D /* LoginViewController.swift */,
 				EC7974391BC85799007E3C8D /* AppDelegate.swift */,
 				EC79743B1BC85799007E3C8D /* ViewController.swift */,
 				EC79743D1BC85799007E3C8D /* Main.storyboard */,
+				EC7974711BC85FCC007E3C8D /* TrendingViewController.swift */,
+				EC79746F1BC85F2F007E3C8D /* AccountViewController.swift */,
+				EC79746D1BC85D54007E3C8D /* ComposeViewController.swift */,
+				EC79746B1BC85D0A007E3C8D /* SearchViewController.swift */,
+				EC7974691BC85BBE007E3C8D /* HomeViewController.swift */,
+				EC7974671BC857C3007E3C8D /* TabBarViewController.swift */,
 				EC7974401BC85799007E3C8D /* Assets.xcassets */,
 				EC7974421BC85799007E3C8D /* LaunchScreen.storyboard */,
 				EC7974451BC85799007E3C8D /* Info.plist */,
@@ -255,8 +276,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC7974741BCC8CF1007E3C8D /* LoginViewController.swift in Sources */,
+				EC79746C1BC85D0A007E3C8D /* SearchViewController.swift in Sources */,
+				EC7974721BC85FCC007E3C8D /* TrendingViewController.swift in Sources */,
 				EC79743C1BC85799007E3C8D /* ViewController.swift in Sources */,
+				EC7974701BC85F2F007E3C8D /* AccountViewController.swift in Sources */,
+				EC7974681BC857C3007E3C8D /* TabBarViewController.swift in Sources */,
+				EC79746E1BC85D54007E3C8D /* ComposeViewController.swift in Sources */,
 				EC79743A1BC85799007E3C8D /* AppDelegate.swift in Sources */,
+				EC79746A1BC85BBE007E3C8D /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
